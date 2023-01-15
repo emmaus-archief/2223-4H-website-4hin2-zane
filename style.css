@@ -37,6 +37,14 @@ h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
   margin: 10px 0px;
   text-align: center;             /* tekst centreren */
 } 
+.genreH1{
+  margin: 10px 0px;
+  text-align: left;
+}
+.genreH2{
+  margin: 10px 0px;
+  text-align: right;
+}
 
 p {
   margin: 10px 0px;
@@ -51,6 +59,15 @@ p {
   padding-right:15px;           /* afstand tussen plaatje en rechterkolom */
 }
 .kolomRechts {
+  float:left;
+  width: 450px;
+}
+.genreRechts {
+  float:rechts;
+  width:250px;
+  padding-left:15px;
+}
+.genreLinks{
   float:left;
   width: 450px;
 }
@@ -105,6 +122,5 @@ nav li a:hover {
 }
 
 nav li a.active {
-    background-color: darkgray
-  ;
+    background-color: darkgrey;
 }
